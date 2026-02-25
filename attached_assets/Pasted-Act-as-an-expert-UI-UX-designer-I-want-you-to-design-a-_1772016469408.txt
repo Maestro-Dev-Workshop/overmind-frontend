@@ -1,0 +1,71 @@
+Act as an expert UI/UX designer. I want you to design a stunning, high-fidelity landing page prototype for my software development company, Overmind Technologies. Please use HTML and Tailwind CSS purely to create a beautiful visual layout—no complex functional code or backend is needed.
+
+Design Language & Art Direction:
+
+Vibe: Innovative, premium, forward-thinking, and highly professional.
+
+Color Palette: A dark mode theme with deep slate backgrounds, crisp white typography, and vibrant neon accents (like electric blue or purple) to highlight calls to action and important elements.
+
+Typography: Use a clean, modern sans-serif font (like Inter or Roboto).
+
+Effects: Incorporate subtle glassmorphism (frosted glass effects), soft shadows, and rounded corners for a sleek feel.
+
+Please design the following layout from top to bottom:
+
+1. Global Navigation Bar:
+
+A sticky, transparent header with a bold "Overmind" text logo on the left.
+
+Clean navigation links: About, Product, Team.
+
+A standout "Contact Us" button on the right.
+
+2. Hero Section (High Impact):
+
+A large, bold headline: "Tackling Real-World Problems with Software."
+
+Sub-headline: "We are Overmind Technologies. Building the next generation of digital solutions."
+
+Primary CTA Button: "Explore Our Solutions."
+
+Design a visually striking abstract background or placeholder for a 3D tech illustration.
+
+3. About Section:
+
+A clean, two-column layout. Left side: "Founded November 19, 2025." Right side: A brief, beautifully typeset paragraph about our mission to develop software that solves complex problems.
+
+4. Product Spotlight (Maestro):
+
+Design a visually distinct "card" or full-width section highlighting our first product, Maestro.
+
+Include the description: "An AI-powered learning platform that generates personalized lessons based on your preferences and resources."
+
+Include a stylized link to www.maestrolearningplatform.com.
+
+Add a placeholder rectangle that represents a sleek laptop mockup showing the Maestro interface.
+
+5. Team Grid Section:
+
+Section Title: "The Minds Behind Overmind"
+
+Design a responsive grid of modern profile cards. Each card should have a circular image placeholder, a name, and a title in a subtle accent color.
+
+The team members to feature:
+
+Bello Quamdeen (CEO)
+
+Ewuoso Emmanual (CTO)
+
+Kushimo Mosopefoluwa
+
+Kesena Ovesuor
+
+Adebawojo Mosopefoluwa
+
+Okpokpo Trust
+
+6. Clean Footer:
+
+Minimalist design with copyright info ("© 2026 Overmind Technologies"), social icon placeholders, and a subtle gradient divider line above it.
+
+Focus heavily on spacing (padding/margins), alignment, and visual hierarchy to make this look like an award-winning design concept.
