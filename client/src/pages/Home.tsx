@@ -41,9 +41,9 @@ export default function Home() {
     <div className="min-h-screen bg-background overflow-hidden selection:bg-primary/30">
       {/* Abstract background blobs */}
       <div className="fixed inset-0 pointer-events-none overflow-hidden">
-        <div className="blob bg-primary/20 w-[600px] h-[600px] -top-[200px] -left-[200px]"></div>
-        <div className="blob bg-blue-500/20 w-[500px] h-[500px] top-[40%] -right-[150px] animation-delay-2000"></div>
-        <div className="blob bg-purple-500/20 w-[800px] h-[800px] -bottom-[300px] left-[20%] animation-delay-4000"></div>
+        <div className="blob bg-primary/10 w-[600px] h-[600px] -top-[200px] -left-[200px]"></div>
+        <div className="blob bg-emerald-500/10 w-[500px] h-[500px] top-[40%] -right-[150px] animation-delay-2000"></div>
+        <div className="blob bg-mint-500/10 w-[800px] h-[800px] -bottom-[300px] left-[20%] animation-delay-4000"></div>
       </div>
 
       {/* 1. Global Navigation Bar */}
@@ -61,7 +61,7 @@ export default function Home() {
           </div>
 
           <Button 
-            className="bg-primary hover:bg-primary/90 text-white rounded-full px-6 font-medium shadow-[0_0_15px_rgba(139,92,246,0.3)] hover:shadow-[0_0_25px_rgba(139,92,246,0.5)] transition-all"
+            className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-6 font-medium shadow-[0_0_15px_rgba(16,185,129,0.3)] hover:shadow-[0_0_25px_rgba(16,185,129,0.5)] transition-all"
             data-testid="button-contact"
           >
             Contact Us
