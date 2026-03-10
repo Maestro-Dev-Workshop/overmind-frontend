@@ -64,7 +64,7 @@ export default function Home() {
             className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-6 font-medium shadow-[0_0_15px_rgba(16,185,129,0.3)] hover:shadow-[0_0_25px_rgba(16,185,129,0.5)] transition-all"
             data-testid="button-contact"
           >
-            <a href="mailto:support@maestrolearningplatform.com">
+            <a href="mailto:support@overmindtechnologies.com">
               Contact Us
             </a>
           </Button>
@@ -302,7 +302,7 @@ export default function Home() {
               <Github className="h-4 w-4" />
             </a> */}
             <a 
-              href="mailto:support@maestrolearningplatform.com" 
+              href="mailto:support@overmindtechnologies.com" 
               className="h-10 w-10 rounded-full bg-white/5 flex items-center justify-center text-muted-foreground hover:bg-white/10 hover:text-white transition-colors" 
               aria-label="Email"
             >
