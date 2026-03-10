@@ -3,23 +3,23 @@ import { ArrowRight, ChevronRight, Github, Linkedin, Twitter, Mail } from "lucid
 import { Button } from "@/components/ui/button";
 
 // Import images
-import logoUrl from "@assets/overmind_logo_1772015753116.png";
+import logoUrl from "@/assets/images/overmind-logo.svg";
 import heroBg from "@/assets/images/hero-bg.png";
 import maestroMockup from "@/assets/images/maestro-mockup.png";
-import team1 from "@/assets/images/team_1.jpg";
-import team2 from "@/assets/images/team_2.jpg";
-import team3 from "@/assets/images/team_3.jpg";
-import team4 from "@/assets/images/team_4.jpg";
-import team5 from "@/assets/images/team_5.jpg";
-import team6 from "@/assets/images/team_6.jpg";
+import team1 from "@/assets/images/quam.jpeg";
+import team2 from "@/assets/images/ayo.jpeg";
+import team3 from "@/assets/images/kush.jpeg";
+import team4 from "@/assets/images/shelby.jpeg";
+import team5 from "@/assets/images/sopzy.jpeg";
+import team6 from "@/assets/images/trust.jpeg";
 
 const teamMembers = [
   { name: "Bello Quamdeen", title: "CEO", image: team1 },
   { name: "Ewuoso Emmanual", title: "CTO", image: team2 },
-  { name: "Kushimo Mosopefoluwa", title: "Lead Designer", image: team3 },
-  { name: "Kesena Ovesuor", title: "Senior Engineer", image: team4 },
-  { name: "Adebawojo Mosopefoluwa", title: "Product Manager", image: team5 },
-  { name: "Okpokpo Trust", title: "Marketing Lead", image: team6 },
+  { name: "Kushimo Mosopefoluwa", title: "Marketing Lead", image: team3 },
+  { name: "Kesena Ovesuor", title: "Frontend Engineer", image: team4 },
+  { name: "Adebawojo Mosopefoluwa", title: "Backend Engineer", image: team5 },
+  { name: "Okpokpo Trust", title: "Lead Designer", image: team6 },
 ];
 
 const fadeIn = {
@@ -50,7 +50,7 @@ export default function Home() {
       <nav className="fixed top-0 w-full z-50 glass border-b-0 border-white/5 transition-all duration-300">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center gap-3 cursor-pointer">
-            <img src={logoUrl} alt="Overmind Logo" className="h-8 w-8 object-contain invert" />
+            <img src={logoUrl} alt="Overmind Logo" className="h-8 w-8 object-contain" />
             <span className="text-xl font-bold tracking-tight text-white">Overmind</span>
           </div>
           
@@ -64,7 +64,9 @@ export default function Home() {
             className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-6 font-medium shadow-[0_0_15px_rgba(16,185,129,0.3)] hover:shadow-[0_0_25px_rgba(16,185,129,0.5)] transition-all"
             data-testid="button-contact"
           >
-            Contact Us
+            <a href="mailto:support@maestrolearningplatform.com">
+              Contact Us
+            </a>
           </Button>
         </div>
       </nav>
@@ -114,8 +116,10 @@ export default function Home() {
                   className="bg-white text-background hover:bg-white/90 rounded-full px-8 h-14 text-base font-semibold group"
                   data-testid="button-explore"
                 >
-                  Explore Our Solutions
-                  <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                  <a href="#product" className="text-sm font-medium hover:underline transition-colors flex flex-row items-center">
+                    Explore our solutions
+                    <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                  </a>
                 </Button>
               </motion.div>
             </motion.div>
@@ -271,7 +275,7 @@ export default function Home() {
         
         <div className="max-w-7xl mx-auto px-6 py-12 flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-2">
-             <img src={logoUrl} alt="Overmind Logo" className="h-6 w-6 object-contain invert opacity-70" />
+             <img src={logoUrl} alt="Overmind Logo" className="h-6 w-6 object-contain opacity-70" />
              <span className="text-muted-foreground font-medium">Overmind</span>
           </div>
           
@@ -280,16 +284,28 @@ export default function Home() {
           </p>
 
           <div className="flex items-center gap-4">
-            <a href="#" className="h-10 w-10 rounded-full bg-white/5 flex items-center justify-center text-muted-foreground hover:bg-white/10 hover:text-white transition-colors" aria-label="Twitter">
+            {/* <a href="#" 
+              className="h-10 w-10 rounded-full bg-white/5 flex items-center justify-center text-muted-foreground hover:bg-white/10 hover:text-white transition-colors" 
+              aria-label="Twitter"
+              target="_blank"
+            >
               <Twitter className="h-4 w-4" />
-            </a>
-            <a href="#" className="h-10 w-10 rounded-full bg-white/5 flex items-center justify-center text-muted-foreground hover:bg-white/10 hover:text-white transition-colors" aria-label="LinkedIn">
+            </a> */}
+            <a href="https://www.linkedin.com/company/overmind-tech/" 
+              className="h-10 w-10 rounded-full bg-white/5 flex items-center justify-center text-muted-foreground hover:bg-white/10 hover:text-white transition-colors" 
+              aria-label="LinkedIn"
+              target="_blank"
+            >
               <Linkedin className="h-4 w-4" />
             </a>
-            <a href="#" className="h-10 w-10 rounded-full bg-white/5 flex items-center justify-center text-muted-foreground hover:bg-white/10 hover:text-white transition-colors" aria-label="GitHub">
+            {/* <a href="#" className="h-10 w-10 rounded-full bg-white/5 flex items-center justify-center text-muted-foreground hover:bg-white/10 hover:text-white transition-colors" aria-label="GitHub">
               <Github className="h-4 w-4" />
-            </a>
-            <a href="#" className="h-10 w-10 rounded-full bg-white/5 flex items-center justify-center text-muted-foreground hover:bg-white/10 hover:text-white transition-colors" aria-label="Email">
+            </a> */}
+            <a 
+              href="mailto:support@maestrolearningplatform.com" 
+              className="h-10 w-10 rounded-full bg-white/5 flex items-center justify-center text-muted-foreground hover:bg-white/10 hover:text-white transition-colors" 
+              aria-label="Email"
+            >
               <Mail className="h-4 w-4" />
             </a>
           </div>
